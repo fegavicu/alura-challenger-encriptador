@@ -17,7 +17,7 @@
         }
         return true;
     }
-                    /*Botones */
+                            /*Botones */
 
     function btnEncriptar() { 
         const texto = cajaTexto.value;

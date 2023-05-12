@@ -27,7 +27,6 @@ header .cabeza .logo{
     color: rgba(5,5,5);
     border: 2px solid rgba(253,250,67);
     padding: 10px;
-    /*box-shadow: 5px 5px 20px #2dffd4, -5px -5px 20px #2dffd4;*/
     text-shadow: 1px 1px 5px #2dffd4;
     text-align: center;
     border-radius: 15px;
@@ -36,20 +35,16 @@ header .cabeza .logo{
 }
 
 header .cabeza .titulo{
-    /*color: rgba(253,250,67,0.9);*/
+
     font-size: clamp(15px, 1.5vw, 30px);
     display: flex;
-    /*border: 2px solid rgba(253,250,67,0.9);*/
     padding: 10px;
     margin-left: 20px;
-    /*box-shadow: 5px 5px 20px #2dffd4, -5px -5px 20px #2dffd4;*/
     text-shadow: 1px 1px 5px #2dffd4;
     border-radius: 15px;
     border-bottom: 4px solid #2dffd4;
     border-right: 4px solid #2dffd4;
-   /* background: -webkit-linear-gradient(black,#FFFF33);
-    -webkit-background-clip: text;
-    color: transparent;*/
+   
 }
 
                     /*CAJA DE TEXTO*/
