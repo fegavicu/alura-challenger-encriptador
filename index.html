@@ -1,0 +1,64 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabeza">
+
+            <h1 class="logo">a</h1>
+            
+            <div class="titulo">
+                <h1>Encriptador de Texto</h1>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="contenedor">
+
+        
+        <section class="cajadetexto">
+            
+            
+            <textarea class="cajita" id=""  placeholder="Texto a encriptar"></textarea>
+            
+            <p class="advertencia">⚠ Solo letras minúsculas, sin acentos ni caracteres especiales</p>
+ 
+            <div class="botones">
+                <button class="boton b-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton b-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                
+            </div>
+        </section>
+        
+        <div class="resultado">
+
+            <textarea id="txtEspacio" class="espacio"  ></textarea>
+
+            <div class="botones">
+                <button class="boton" id="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </div>
+              
+    </div>
+
+    <footer>
+        <div class="rodapie">
+            <p>Desarrollado por <span>Felix Villamizar</span> para el programa <span>ONE G5</span> de Alura Latam</p>
+        </div>
+        <a href="https://github.com/fegavicu" target="_blank">
+            <div class="git"></div>
+        </a>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+    
+</html>
